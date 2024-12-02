@@ -1,0 +1,53 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero>p,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo>img {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.sign-up,
+.bottom {
+    background-color: #3882F6;
+}
+
+.sign-up,
+.bottom>p,
+h3 {
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote>p,
+h2 {
+    color: #1F2937;
+}
