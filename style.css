@@ -1,5 +1,10 @@
-html {
+body {
     font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header,
@@ -12,9 +17,10 @@ h1 {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
+    margin: 0;
 }
 
-.hero>p,
+.main-text>p,
 a {
     font-size: 18px;
     color: #E5E7EB;
@@ -50,4 +56,62 @@ h2 {
 .quote>p,
 h2 {
     color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 18px 450px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 100px 450px;
+}
+
+.main-text {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-hero {
+    width: 450px;
+    height: auto;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
 }
